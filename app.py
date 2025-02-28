@@ -169,7 +169,7 @@ def prev_page():
     st.session_state.page -= 1
 # --- Background & Logo ---
 set_background("background.jpg")
-st.image("jersey_placeholder.png", use_column_width=False, width=200)
+st.image("jersey_placeholder.png", use_container_width=False, width=200)
 st.title("🏆 Custom Jersey Designer")
 
 # Add progress bar
